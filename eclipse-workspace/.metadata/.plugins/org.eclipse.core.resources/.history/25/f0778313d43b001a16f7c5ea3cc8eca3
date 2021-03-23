@@ -1,0 +1,15 @@
+
+public class nasaaen {
+	
+	
+ public enum NASA { 
+		
+		Ekvator (9.78), 
+		Kutuplar(9.81),
+		Uzay(0.015)
+		double x,a; 
+		
+		
+	}
+
+}

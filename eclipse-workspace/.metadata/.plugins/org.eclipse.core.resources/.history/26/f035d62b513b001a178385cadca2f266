@@ -1,0 +1,15 @@
+public class Doga {
+	
+	public static void main(String[] args) {
+		
+			
+				System.out.println(hayvanlar.Aslan);
+				
+				System.out.println(enum.hayvanlar);
+		
+		
+		
+		
+	}
+
+}

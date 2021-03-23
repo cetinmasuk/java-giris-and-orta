@@ -1,0 +1,27 @@
+
+public class kopyala {
+	
+	public static void main(String[] args) {
+		
+		int dizi1 [] =  new int [10]; 
+		
+		int  []  dizi2 =   {10,20,30,40,50};
+		
+		System.arraycopy(dizi2, 2, dizi1, 0, 3);
+		
+		
+		 for (int x: dizi1) {
+			 System.out.println("Yeni dizi degerleri: " + x + dizi1.length);
+		
+		
+		}
+		
+		
+		
+	}
+	
+	
+	
+		
+
+}

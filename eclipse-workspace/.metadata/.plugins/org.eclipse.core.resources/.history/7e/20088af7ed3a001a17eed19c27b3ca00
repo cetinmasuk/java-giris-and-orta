@@ -1,0 +1,22 @@
+package ThisKlaýp;
+
+public class Üretim {
+	
+
+	public static void main(String[] args) {
+		
+		
+		TelefonKalýp tel1 =new TelefonKalýp("Samsung", "Note10","Beyaz",2018); 
+		TelefonKalýp tel2 = new TelefonKalýp("Apple", "Ýphone7", "Black",2016)
+		
+		System.out.println("-------------------------------------");
+		System.out.println("Telfon:  "+ tel1.getMarka());
+		System.out.println("-------------------------------------");
+		
+		System.out.println(tel2.toString());
+		
+		
+		
+	}
+
+}

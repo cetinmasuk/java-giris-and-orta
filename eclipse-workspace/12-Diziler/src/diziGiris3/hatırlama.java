@@ -1,0 +1,27 @@
+package diziGiris3;
+
+public class hatýrlama { 
+	
+	
+	 	public static void main(String[] args) {
+			
+	 		String günler []; 
+	 		
+	 		günler = new String [] {"pazatesi","sali","çarþamda","perþembe","cuma","cumartesi","pazar"};
+	 		
+	 		System.out.println("Haftanýn Gün Saysý: " + günler.length);
+	 		
+	 		System.out.println("Seçilen Gün: " + günler [5]);
+	 		
+	 		
+	 		for(String i: günler) {
+	 			
+	 				System.out.println(i);
+	 			
+	 		}
+	 		
+	 		
+	 		
+		}
+
+}

@@ -1,0 +1,90 @@
+package ThisKlaýp;
+
+public class TelefonKalýp {
+	private String Marka; 
+	private String  Model; 
+	private String  Renk; 
+	private int year; 
+			
+	
+	
+			public TelefonKalýp(String Marka, String Model, String Renk, int year ) {
+				
+				this.Marka = Marka; 
+				this.Model = Model; 
+				this.Renk  = Renk; 
+				this.year = year; 				
+				
+				
+				System.out.println( Marka + " Telefon Markasi");
+				System.out.println(Model + "-" +   Marka + " Markasýnýn Ürünüdür.");
+				System.out.println(Renk + 	" Telefonun Rengi.");
+				System.out.println(year	+ 	" Üretilmiþtir.");
+				
+				
+			}
+
+
+
+			public String getMarka() {
+				return Marka;
+			}
+
+
+
+			public void setMarka(String marka) {
+				Marka = marka;
+			}
+
+
+
+			public String getModel() {
+				return Model;
+			}
+
+
+
+			public void setModel(String model) {
+				Model = model;
+			}
+
+
+
+			public String getRenk() {
+				return Renk;
+			}
+
+
+
+			public void setRenk(String renk) {
+				Renk = renk;
+			}
+
+
+
+			public int getYear() {
+				return year;
+			}
+
+
+
+			public void setYear(int year) {
+				this.year = year;
+			}
+
+
+
+			@Override
+			public String toString() {
+				return "TelefonKalýp [Marka=" + Marka + ", Model=" + Model + ", Renk=" + Renk + ", year=" + year + "]";
+			}
+
+
+				
+	
+	
+			
+	
+	
+
+}

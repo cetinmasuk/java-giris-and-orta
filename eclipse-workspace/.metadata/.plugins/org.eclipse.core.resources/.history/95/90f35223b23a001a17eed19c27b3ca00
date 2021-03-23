@@ -1,0 +1,22 @@
+package Nesne1;
+
+public class araba1 {
+	
+	public static void main(String[] args) {
+		
+		araba  model2 = new araba("Mercedes","C185","Mavi", 2015); 
+		
+		System.out.println("Üretilen ilk Marka: "+ model2.Marka);
+		
+		System.out.println("Üretilen ilk Modeli: "+ model2.Model);
+		
+		System.out.println("Arabanýn Rengi: " + model2.Renk);
+		
+		
+		
+		
+		
+		
+	}
+
+}
